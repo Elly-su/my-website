@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link href="./dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-10">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="text-xl font-bold text-primary">Elly Ochieng' Kimbero</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#bio" class="text-gray-600 hover:text-primary transition">Bio</a>
+                    <a href="#portfolio" class="text-gray-600 hover:text-primary transition">Portfolio</a>
+                    <a href="#elevator-pitch" class="text-gray-600 hover:text-primary transition">Elevator Pitch</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="pt-24 pb-12 bg-gradient-to-r from-primary to-secondary text-white">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">Welcome to My Website</h1>
+            <p class="text-xl md:text-2xl">Student | Developer | Data Engineer</p>
+        </div>
+    </header>
+
+    <!-- Bio Section -->
+    <section id="bio" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">About Me</h2>
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div class="space-y-4">
+                    <p class="text-gray-600">
+                        I'm Elly, a Data Science student at the Cooperative University of Kenya with a strong passion for Python programming, machine learning, and building real-world tech solutions. I'm deeply curious about how data shapes decisions and the systems that power intelligent insights. My goal is to become a data engineer, using scalable tools and infrastructure to solve impactful problems. Outside of tech, I enjoy playing chess, where strategic thinking and pattern recognition fuel both my learning and creativity.
+                    </p>
+                    <p class="text-gray-600">
+                         Over the past year, I've worked on several practical projects including a movie recommendation system using content-based filtering, a login authentication system using PHP and SQL, and an HR employee management database to strengthen my SQL and database design skills.
+
+                        My technical toolkit includes Python (with libraries like Pandas, NumPy, Scikit-learn, and Matplotlib), SQL, basic web development using HTML, CSS, and PHP, as well as version control with Git. I've also begun exploring Linux environments and recently started transitioning to Ubuntu to deepen my understanding of system-level workflows.
+                        
+                        I'm especially passionate about transforming raw data into structured, actionable insights and enjoy building pipelines that make this possible at scale. I plan to pursue a career in data engineering, where I can design systems that collect, process, and make data usable for analytics and AI. Outside the technical world, I'm a chess player who enjoys applying strategy and critical thinking both on and off the board.
+                    </p>
+                </div>
+                <div class="bg-gray-200 rounded-lg overflow-hidden h-96 md:h-[32rem] flex items-center justify-center">
+                    <img src="images/image.png" alt="Elly Ochieng' Kimbero" class="object-contain w-full h-full" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-16 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">My Portfolio</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Portfolio Item 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="bg-gray-200 h-48"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Project 1 Movie Recommendation System</h3>
+                        <p class="text-gray-600">Developed a content-based recommendation system using Python and Pandas to suggest movies based on user preferences. Leveraged cosine similarity and TF-IDF vectorization to match user inputs with relevant movie metadata. This project improved my understanding of natural language processing, feature engineering, and recommendation algorithms.</p>
+                    </div>
+                </div>
+                <!-- Portfolio Item 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="bg-gray-200 h-48"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Project 2-HR Employee Management System</h3>
+                        <p class="text-gray-600"> Built a CRUD-based employee management system using SQL for backend data handling. Designed relational tables to manage employee records including roles, departments, and leave balances. This project sharpened my database design skills, query optimization techniques, and understanding of data integrity and normalization principles.</p>
+
+                    </div>
+                </div>
+                <!-- Portfolio Item 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="bg-gray-200 h-48"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Project 3-Simple Login Authentication Page</h3>
+                        <p class="text-gray-600"> Developed a basic login page using HTML, CSS, PHP, and MySQL, hosted locally via XAMPP. Implemented secure user authentication with form validation, password hashing, and session management. This project gave me hands-on experience with backend development, database connectivity, and the foundations of web security.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Elevator Pitch Section -->
+    <section id="elevator-pitch" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">Elevator Pitch</h2>
+            <div class="bg-gray-50 rounded-lg p-8 shadow-md">
+                <p class="text-gray-600 text-lg leading-relaxed">
+                    I'm Elly, a Data Science student at the Cooperative University of Kenya with a strong passion for Python programming, machine learning, and building real-world tech solutions. I'm deeply curious about how data shapes decisions and the systems that power intelligent insights. My goal is to become a data engineer, using scalable tools and infrastructure to solve impactful problems. Outside of tech, I enjoy playing chess, where strategic thinking and pattern recognition fuel both my learning and creativity.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <p>&copy; 2024 Elly Ochieng' Kimbero. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 

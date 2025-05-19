@@ -1,0 +1,12 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Personal website with bio, portfolio, and elevator pitch",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
